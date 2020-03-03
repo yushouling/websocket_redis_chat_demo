@@ -18,6 +18,7 @@ public class SubscribeListener implements MessageListener {
 
     /**
      * 订阅接收发布者的消息
+     * @param pattern 主题名称
      */
     @Override
     public void onMessage(Message message, byte[] pattern) {
